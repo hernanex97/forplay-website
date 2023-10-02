@@ -1,0 +1,119 @@
+/* *********** Business Css ***********  */
+.business {
+  padding: 120px 0 70px 0;
+  position: relative;
+}
+
+.business-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.business h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.business p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.business-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.business-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+.react-multiple-carousel__arrow {
+  /* margin-right: -35px; */
+  background-color: #4b4a4a;
+  /* margin-left: -35px; */
+}
+
+.sql_logo {
+  height: 65%;
+  width: 65%;
+  margin-left: 20%;
+}
+
+.unity_logo {
+  padding-top: 15px;
+}
+
+.firebase_logo {
+  margin-left: 35%;
+  height: 75px;
+  width: 75px;
+}
+
+.containerBusiness {
+  max-width: 1600px !important;
+}
+
+@media (max-width:600px) {
+  .react-multiple-carousel__arrow {
+    width: 20px !important;
+    height: 20px !important;
+    min-width: unset !important;
+    min-height: unset !important;
+  }
+
+  .react-multiple-carousel__arrow::before {
+    font-size: 12px;
+  }
+}
+
+/* 
+.react-multi-carousel-track {
+  display: contents !important;
+} */
+.textinhos {
+  margin-top: 40px;
+  display: flex !important;
+
+}
+
+.contentTextCard {
+  align-items: center !important;
+  display: block !important;
+  justify-content: center;
+}
+
+.h1Card {
+  color: #ffffff !important;
+  font-size: 23px !important;
+  font-weight: 400;
+  letter-spacing: 0.8px !important;
+  line-height: 1.5em !important;
+  width: 100% !important;
+  align-items: center !important;
+}
+
+.pCard {
+  color: #ffffff !important;
+  font-size: 17px !important;
+  letter-spacing: 0.8px !important;
+  line-height: 1.5em !important;
+  width: 95% !important;
+  align-items: center !important;
+}
