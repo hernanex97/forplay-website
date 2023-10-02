@@ -50,7 +50,6 @@ export const NavBar = () => {
                             <Nav.Link href="#community" className={activeLink === 'community' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('community')}>Invest</Nav.Link>
                             <Nav.Link href="#roadmap" className={activeLink === 'roadmap' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('roadmap')}>Forplay Roadmap</Nav.Link>
                             <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Let's Connect</Nav.Link>
-                            {/* <Nav.Link href="https://www.linkedin.com/in/expositohernan/" target="_blank" className={activeLink === 'linkedin' ? 'active navbar-link' : 'navbar-link'}>LinkedIn</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
