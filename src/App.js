@@ -3,7 +3,6 @@ import { NavBar } from './components/navbar/NavBar';
 import { Banner } from './components/banner/Banner';
 import { Business } from './components/business/Business';
 import { Community } from './components/community/Community';
-import { Games } from './components/games/Games';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { Vision } from './components/vision/Vision';
@@ -12,6 +11,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  console.log(`
+   ________  ___  ___  __   _____  __
+  / __/ __ \\/ _ \\/ _ \\/ /  / _ \\/ / /
+ / _// /_/ / , _/ ___/ /__/ __ |\\  / 
+/_/  \\____/_/|_/_/  /____/_/ |_|/_/  
+`);
   return (
     <div className="App">
       <NavBar />
@@ -20,7 +25,6 @@ function App() {
       <Vision />
       <Community />
       <Timeline />
-      {/* <Games /> */}
       <Contact />
       <Footer />
     </div>

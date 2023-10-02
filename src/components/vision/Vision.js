@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import './Vision.css';
 
 export const Vision = () => {

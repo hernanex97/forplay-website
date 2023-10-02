@@ -1,55 +1,53 @@
 import React from 'react';
-import { useState } from "react"
+// import { useState } from "react"
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../../assets/img/contact-img.svg";
-import sendMailGif from "../../assets/img/send-email.gif";
 import forplayImg from "../../assets/img/new-logoforplay-2.png";
 require('./Contact.css');
 
 export const Contact = ({ title, description, imgUrl }) => {
 
-    const formInitialDetails = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        message: ''
-    }
+    // const formInitialDetails = {
+    //     firstName: '',
+    //     lastName: '',
+    //     email: '',
+    //     phone: '',
+    //     message: ''
+    // }
 
-    const [formDetails, setFormDetails] = useState(formInitialDetails);
-    const [buttonText, setButtonText] = useState('Send');
-    const [status, setStatus] = useState({});
+    // const [formDetails, setFormDetails] = useState(formInitialDetails);
+    // const [buttonText, setButtonText] = useState('Send');
+    // const [status, setStatus] = useState({});
 
-    const onFormUpdate = (category, value) => {
-        setFormDetails({
-            ...formDetails,
-            [category]: value
-        })
-    }
+    // const onFormUpdate = (category, value) => {
+    //     setFormDetails({
+    //         ...formDetails,
+    //         [category]: value
+    //     })
+    // }
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText("Sending...");
-        let statusCode = 0;
-        await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(formDetails),
-        }).then(data => {
-            statusCode = data.status;
-        });;
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     setButtonText("Sending...");
+    //     let statusCode = 0;
+    //     await fetch("http://localhost:5000/contact", {
+    //         method: "POST",
+    //         headers: {
+    //             "Content-Type": "application/json"
+    //         },
+    //         body: JSON.stringify(formDetails),
+    //     }).then(data => {
+    //         statusCode = data.status;
+    //     });;
 
-        setButtonText("Send");
+    //     setButtonText("Send");
 
-        setFormDetails(formInitialDetails);
-        if (statusCode === 200) {
-            setStatus({ success: true, message: "Message sent succesfully!" });
-        } else {
-            setStatus({ success: false, message: "Something went wrong :( Please try again later." });
-        }
-    }
+    //     setFormDetails(formInitialDetails);
+    //     if (statusCode === 200) {
+    //         setStatus({ success: true, message: "Message sent succesfully!" });
+    //     } else {
+    //         setStatus({ success: false, message: "Something went wrong :( Please try again later." });
+    //     }
+    // }
 
     return (
 

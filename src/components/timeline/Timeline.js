@@ -2,8 +2,6 @@ import React from "react"
 import { Chrono } from "react-chrono";
 import './Timeline.css';
 import { Row, Col, Container } from "react-bootstrap";
-import colorSharp2 from "../../assets/img/new-color-sharp2.png";
-import colorSharp from "../../assets/img/new-color-sharp.png";
 export const Timeline = () => {
     const items = [{
         title: "2024 - Q1",

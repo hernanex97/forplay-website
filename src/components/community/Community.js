@@ -1,16 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import { ProjectCard, VisionCard } from "../vision_card/VisionCard";
+import { Container, Row, Col } from "react-bootstrap";
+import { VisionCard } from "../vision_card/VisionCard";
 import colorSharp2 from "../../assets/img/new-color-sharp2.png";
-import fastcars from "../../assets/projects-images/fastcars.png"
-import officehero from "../../assets/projects-images/officehero.png"
-import leagofgols from "../../assets/projects-images/leagofgoals.png"
-import foresthope from "../../assets/projects-images/foresthope.png"
-import electrons from "../../assets/projects-images/electrons.png"
-import oversoft from "../../assets/projects-images/OVERSOFT.png"
-import watchviewer from "../../assets/projects-images/watchviewer.png"
-import uif from "../../assets/projects-images/uif.png"
-import ibm from "../../assets/projects-images/ibm.png"
 import './Community.css';
 
 export const Community = () => {
