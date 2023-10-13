@@ -40,28 +40,28 @@ self.__precacheManifest = [
     "url": "/static/media/new-color-sharp2.c9b96047.png"
   },
   {
-    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
-    "url": "/static/media/revicons.2feb69cc.eot"
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/static/media/revicons.17629a5d.ttf"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/static/media/revicons.04eb8fc5.woff"
   },
   {
-    "revision": "17629a5dfe0d3c3946cf401e1895f091",
-    "url": "/static/media/revicons.17629a5d.ttf"
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "45625b8b3c5fbb1734f8b5cbb3ed0981",
     "url": "/static/media/new-footer-bg.45625b8b.png"
   },
   {
-    "revision": "4ea3794d631bedab7999678f46b0a162",
-    "url": "/static/media/CentraNo2-Bold.4ea3794d.ttf"
-  },
-  {
     "revision": "63911e8535278ced52b8a37e819f6f5d",
     "url": "/static/media/CentraNo2-Medium.63911e85.ttf"
+  },
+  {
+    "revision": "4ea3794d631bedab7999678f46b0a162",
+    "url": "/static/media/CentraNo2-Bold.4ea3794d.ttf"
   },
   {
     "revision": "386f05946a76935fcabf319affff517a",
